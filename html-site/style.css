@@ -1,0 +1,18 @@
+body {
+    background-color: turquoise;
+  }
+  p {
+    color: red;
+  }
+  p {
+    font-family: "Times New Roman"; /* Specific font name */
+    /* or */
+    font-family: serif; /* Generic name */
+    /* or */
+    font-family: "Arial", sans-serif; /* Comma-separated list */
+  }
+  p {
+    font-size: 12px;
+    font-size: 1.5em;
+    font-size: 100%;
+  }
