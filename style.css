@@ -22,17 +22,22 @@ body {
   body {
     padding: 20px;
   }
-  div {
-    color: rgb(105, 216, 166);
-  }
+
+
+ div { 
+  color: green;
+}
   
   .main {
     color: pink;
   }
   
   #special {
-    color: pink;
+    color: pink; /* ID selector */
   }
+/* Specificity: div = 1 .main = 10 #special = 100 the ID selector has higher 
+prority which is why that color sticks */
+
 
   table, th, td {
     border: 1px solid black;
