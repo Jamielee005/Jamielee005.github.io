@@ -1,5 +1,5 @@
 body {
-    background-color: turquoise;
+    background-color: rgb(223, 208, 243);
   }
   p {
     color: red;
@@ -22,4 +22,15 @@ body {
   body {
     padding: 20px;
   }
-    
+  div {
+    color: blue;
+  }
+  
+  .main {
+    color: red;
+  }
+  
+  #special {
+    color: pink;
+  }
+  
