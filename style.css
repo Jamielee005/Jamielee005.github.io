@@ -1,8 +1,8 @@
 body {
-    background-color: white;
+    background-color: #98A869;
   }
   p {
-    color: red;
+    color: plum;
   }
   p {
     font-family: "Times New Roman"; /* Specific font name */
@@ -17,13 +17,13 @@ body {
     font-size: 100%;
   }
   h1 {
-    color: #333;
+    color: #b76db2;
   }
   body {
     padding: 20px;
   }
   div {
-    color: blue;
+    color: rgb(105, 216, 166);
   }
   
   .main {
@@ -33,21 +33,5 @@ body {
   #special {
     color: pink;
   }
-  table {
-    width: 300px;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-  
-  th, td {
-    border: 1px solid #ccc;
-    padding: 8px 12px;
-    text-align: left;
-  }
-  
-  th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-  }
-  
+ 
   
