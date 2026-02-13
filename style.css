@@ -37,5 +37,8 @@ body {
   table, th, td {
     border: 1px solid black;
   }
+  th, td {
+    background-color: #99a7a7;
+  }
   
   
