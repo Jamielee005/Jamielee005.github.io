@@ -11,6 +11,12 @@ body {
     /* or */
     font-family: "Arial", sans-serif; /* Comma-separated list */
   }
+
+  .navbar { 
+    display: flex; /* puts items in a row */ 
+    gap: 20px; /* space between items */ 
+    padding: 10px; 
+    }
   p {
     font-size: 12px;
     font-size: 1.5em;
