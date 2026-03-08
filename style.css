@@ -33,7 +33,7 @@ body {
 
     .project-grid{
       display: grid;
-      grid-template-columns: 5em 100px 30%;
+      grid-template-columns: repeat(3, 1fr); 
       grid-template-rows: 200px auto;
       grid-gap: 10px;
     }
