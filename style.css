@@ -1,87 +1,74 @@
 body {
-    background-color: #98A869;
-  }
-  p {
-    color: black;
-  }
-  p {
-    font-family: "Times New Roman"; /* Specific font name */
-    /* or */
-    font-family: serif; /* Generic name */
-    /* or */
-    font-family: "Arial", sans-serif; /* Comma-separated list */
-  }
-
-  .navbar { 
-    display: flex; /* puts items in a row */ 
-    justify-content: flex-end;
-    align-items: center;
-    gap: 20px; /* space between items */ 
-    padding: 10px; 
-    }
-
-    .navbar a {
-      color: white;
-      text-decoration: none;
-      margin-left: 15px;
-      padding: 8px 12px;
-      transition: 0.3s;
-    }
-    .navbar a:hover {
-      color: rgb(138, 179, 226);
-    }
-
-    .project-grid{
-      display: grid;
-      grid-template-columns: repeat(3, 1fr); 
-      grid-gap: 10px;
-    }
-    .project-card {
-      background: #1a1a1a;
-      padding: 15px;
-      border-radius: 8px;
-    }
-    .project-card img {
-      width: 100%;
-      height: auto;
-      display: block;
-      border-radius: 6px;
-    }
-    
-
-  p {
-    font-size: 12px;
-    font-size: 1.5em;
-    font-size: 100%;
-  }
-  h1 {
-    color: #b76db2;
-  }
-  body {
-    padding: 20px;
-  }
-
-
- div { 
-  color: green;
+  background-color: #98A869;
+  padding: 20px;
 }
-  
-  .main {
-    color: pink;
-  }
-  
-  #special {
-    color: pink; /* ID selector */
-  }
-/* Specificity: div = 1 .main = 10 #special = 100 the ID selector has higher 
-prority which is why that color sticks */
 
+p {
+  color: black;
+  font-family: "Times New Roman", serif;
+  font-size: 1.2em;
+}
 
-  table, th, td {
-    border: 1px solid black;
-  }
-  th, td {
-    background-color: #99a7a7;
-  }
-  
-  
+h1 {
+  color: #b76db2;
+}
+
+/* NAVBAR */
+.navbar { 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: rgb(138, 179, 226);
+}
+
+/* PROJECT GRID */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-card {
+  background: #1a1a1a;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+}
+
+.project-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+/* TABLE */
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  background-color: #99a7a7;
+}
+
+/* SPECIAL BOX */
+.main {
+  color: pink;
+}
+
+#special {
+  color: pink;
+}
