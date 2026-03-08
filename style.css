@@ -34,11 +34,16 @@ h1 {
   color: rgb(138, 179, 226);
 }
 
-.project-grid {
+.project-grid { /*- ai help */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+
 
 .project-card {
   background: #f0e6f5;
