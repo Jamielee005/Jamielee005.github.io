@@ -31,12 +31,11 @@ body {
       color: rgb(138, 179, 226);
     }
 
-
     .project-grid{
       display: grid;
       grid-template-columns: 5em 100px 30%;
       grid-template-rows: 200px auto;
-      gap: 10px;
+      grid-gap: 10px;
     }
     
 
