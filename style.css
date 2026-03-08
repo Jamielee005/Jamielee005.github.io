@@ -14,9 +14,24 @@ body {
 
   .navbar { 
     display: flex; /* puts items in a row */ 
+    justify-content: flex-end;
+    align-items: center;
     gap: 20px; /* space between items */ 
     padding: 10px; 
     }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      padding: 8px 12px;
+      transition: 0.3s;
+    }
+    .navbar a:hover {
+      color: rgb(138, 179, 226);
+    }
+
+
   p {
     font-size: 12px;
     font-size: 1.5em;
