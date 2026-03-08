@@ -57,7 +57,7 @@ h1 {
 
 /* TABLE */
 table, th, td {
-  border: 1px solid black;
+  border: 1px solid rgb(100, 208, 112);
 }
 
 th, td {
