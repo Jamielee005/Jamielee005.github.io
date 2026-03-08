@@ -37,6 +37,11 @@ body {
       grid-template-rows: 200px auto;
       grid-gap: 10px;
     }
+    .project-card {
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 8px;
+    }
     
 
   p {
